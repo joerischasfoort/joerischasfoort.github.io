@@ -18,7 +18,7 @@ trading in an artificial stock market](http://www.economics-ejournal.org/economi
 Kiel Institute for the World Economy.
 
 ## Teaching
-In 2018, I was awarded University Teacher Qualifications by the University of Groningen on behalf of the. This degree demonstrates a proven ability to both develop and teach university level courses and is recognized by all other Dutch universities.
+In 2018, I was awarded the Dutch University Teacher Qualifications degree by the University of Groningen. This degree demonstrates a proven ability to both develop and teach university level courses and is recognized by all other Dutch universities.
 Starting before that, I have been actively involved in the development of several online courses on the Coursera and Futurelearn platform. Furthermore, I have helped design and taught several years for the following two courses.
 1. [Decision making in a complex and uncertain world](https://www.futurelearn.com/courses/complexity-and-uncertainty), on Futurelearn.
 2. [Global Finance & Growth](https://www.rug.nl/ocasys/feb/vak/show?code=EBM150A05), a master course at University of Groningen.
