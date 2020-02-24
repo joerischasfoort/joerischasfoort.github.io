@@ -28,13 +28,27 @@ To find out if it is caused by volatility, a simulation experiment is needed. Lu
 
 In this simulation experiment, I will increase the noise parameter from 0.05 to 0.5 in steps of 0.05. To make sure that randomness does not affect our results, I will simulate 10 Monte Carlo simulations for every step. This means, there will be 9 * 10 = 90 simulations in total. At the end of every simulation, I measure the Gini and Palma coefficient.
 
-So, what happens if we plot the volatility against the average end of simulation Gini and Palma? Let's see:
+So, what happens if we plot the volatility of expectations against the Monte Carlo average price volatility, heterogeneity of returns and (end of simulation) Gini and Palma? Let's see:
 
 ![experiment](/images/experiment.png){:class="img-responsive"}
 
+There is a lot to unpack here. Let's start with the top-left panel. The picture shows that, as the volatility of expectations increases (X-axis), the average volatility of the price (Y-axis) increases. The confidence interval bands are not too wide, showing that this effect is reliable. This confirms that the parameter we chose for our experiment was correct.
 
-My main result is that increasing volatility will increase wealth inequality at the end of the simulation.
+Next, we move to the second part of the transmission channel: heterogeneity of log returns. I measure heterogeneity in log returns as the standard deviation of individual log returns. The top-right picture shows that increasing volatility of expectations indeed increases the heterogeneity of log returns, as expected.
 
-This result is robust to a sensitivity analysis.
+Finally, we move to the final part of the channel: inequality. We have seen that indeed increasing the volatility of expectations, increases price volatility and the heterogeneity of log returns. The bottom two panels confirm that it also increases inequality. Both the general measure of inequality (Gini coefficient, bottom-left panel) and the measure of inequality at the extremes (Palma ratio, bottom-right panel) increase as volatility increases.
+
+Therefore, the experiment does not contradict our hypothesis. Increasing volatility seems to increase heterogeneous log returns and wealth inequality. This is the main result of the paper.  
+
+But, how do we know that this result is not a consequence of the specific model parameters that I have chosen. What happens if other parameters were chosen for sample size, risk aversion, the spread of the agents, and horizon they use? Does price volatility still increase inequality under different parameter variations?
+
+The answer to this question can be obtained by doing a what is known as a *global sensitivity analysis.* In such an analysis, parameters are first varied, yielding several parameter combinations. Then, for each combination, Monte Carlo simulations are performed and the results on inequality (Gini) are recorded.
+
+To make sense of this data, I use a technique known as Extended Fourier Amplitude Sensitivity Test or **eFast**. Running eFast over the results produces two measures. The total and direct effects changes of parameters have on the Gini coefficient. The following picture shows the results:
+
+![experiment](/images/robustness.png){:class="img-responsive"}
+
+The picture clearly shows that the volatility parameter has the biggest effect on inequality. Even though all of these parameters where varied. This means that the results of the simulations are robust.
+
 
 This work is novel because most research has focused on a channel that works through stock price levels. Following this channel, when stock prices rise, inequality increases because it is mostly the rich that own stocks and vice versa.  
