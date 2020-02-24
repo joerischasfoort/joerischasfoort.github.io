@@ -18,7 +18,7 @@ This means that in the simulation, there is supply and demand. How will these be
 
 When simulating this model over time, the following data is generated.
 
-![dynamics](https://flic.kr/p/2ix3AbB){:class="img-responsive"}
+![dynamics](/images/model_dynamics.png){:class="img-responsive"}
 
 My main result is that increasing volatility will increase wealth inequality at the end of the simulation.
 
