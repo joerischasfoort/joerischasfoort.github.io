@@ -30,7 +30,7 @@ The two bottom panels depict the evolution of inequality over the course of the 
 
 My hypothesis is that this is caused by heterogeneity in log returns. Unlike simple returns, log returns are additive over time. This means that if log returns are different for rich agents than they are for poor agents, this should impact inequality over time. The next picture plots all returns versus the level of wealth of an agent of the previous period, the level of wealth that generated that return.
 
-![returnswealth](/images/return_wealth_correlation.png){:class="img-responsive"}
+![returnwealth](/images/return_wealth_correlation.png){:class="img-responsive"}
 
 The top panel shows the relationship between returns and wealth. You can see that there is actually a negative relationship. Bigger wealth tends to generate less extreme simple returns, or smaller absolute returns (top-right panel). But since these returns are non-additive over time, they do not contain information about the evolution of wealth inequality. For that, log returns are needed.
 
