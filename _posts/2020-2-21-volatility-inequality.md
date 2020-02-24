@@ -50,5 +50,10 @@ To make sense of this data, I use a technique known as Extended Fourier Amplitud
 
 The picture clearly shows that the volatility parameter has the biggest effect on inequality. Even though all of these parameters where varied. This means that the results of the simulations are robust.
 
+So, where does that leave us? The results produced by the simple simulation model are in line with the theory that stock price simulation increase heterogeneity of log returns, which in turn increases wealth inequality. Now, we might wonder, will these results translate to the real world? In other words, is the model an accurate representation of the real world.
 
-This work is novel because most research has focused on a channel that works through stock price levels. Following this channel, when stock prices rise, inequality increases because it is mostly the rich that own stocks and vice versa.  
+Obviously, the model is a highly stylized version of reality. It only considers a simple stock market with very naive traders. Why are these results useful for those of us who are trying to understand the real world? The reason is that making the model more realistic would not change the conclusion. For example, I could add new trading strategies that produce more or less price volatility. The result would still be the same (I tried). Furthermore, I could add other markets, but still this basic channel would be the same. That would introduce new channels that might offset this effect but would not invalidate this channel. What we have done here is confirmed the possibility of the channel through which stock price volatility can increase wealth inequality. That is the contribution of this paper.
+
+Note that the winners are not more deserving than the losers, all traders have random expectations. So, this increase in inequality is not desirable. Various policy makers are now concerned with the levels of inequality, this is another channel that they should take into account.
+
+*At this moment, this blog is still evolving. I will update it over time*
