@@ -3,7 +3,7 @@ layout: post
 title: Monetary Policy Transmission in a Macroeconomic Agent-Based Model
 ---
 
-The first paper of my PhD. 
+A big macroeconomic Agent-Based Model in which we studies monetary policy transmission. 
 
 ### Abstract
 
