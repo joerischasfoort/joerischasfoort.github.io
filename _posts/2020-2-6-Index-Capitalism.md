@@ -3,8 +3,6 @@ layout: post
 title: Index capitalism
 ---
 
-Here, I go into a new type of capitalism: index capitalism.
-
 Both financial market valuations and a sense of risk are at an all time high these days. You might wonder, why? Could it be that investors are overconfident or complacent, as a consequence of ultra relaxed monetary policy.
 
 It could be.. But, there is a striking trend that might instead be the cause of all this. A trend that might mark the next stage in the evolution of global financial markets. One could call this trend ‘index capitalism.’ This name was inspired by the famous economist Hyman Minsky. In the 1980s, he observed that financial markets increasingly revolved around large institutional investors rather than household investing. He called this “money manager capitalism.”
